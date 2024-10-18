@@ -17,7 +17,7 @@ COPY . /www
 WORKDIR /www
 
 # set your port
-ENV PORT 8080
+ENV PORT 8080:80
 
 # expose the port to outside world
 EXPOSE  8080
